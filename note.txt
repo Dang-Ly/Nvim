@@ -1,0 +1,40 @@
+VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Jun 23 2022 04:01:15)
+
+NORMAL MODE
+INSERT MODE
+COMMAND MODE
+
+:q - quit
+:q! - quit without save
+:wq - quit and save
+i - insert test before the cursor
+a - insert text after the cursor
+A - insert text end of line
+o - insert text in a new line
+dd - delete a line
+u - undo
+:u - undo one change
+Ctrl + r - redo
+:red - redo one change
+gg - go to first line
+G - go to last line
+:[number] - go to line number
+w - go to next word
+b - go to previous word
+y - copy
+P(capital) - paste in line
+d - cut
+/[word] - find word
+* - find the current word
+n - go to next word
+N - go to previous word
+:%s/[old word]/[new word] - replace
+:e [file name] - open file
+:bd - close current file
+:vs - vertical split screen
+:sp - split screen
+Ctrl + w + h/j/k/l - change screen
+Ctrl + w + H/J/K/L - change screen position
+
+VISUAL MODE
+V - one line
